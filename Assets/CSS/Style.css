@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+  /* Bas yahan color change karein, poori website par update ho jayega */
+  --primary-color: #06b6d4 ; 
+}
+
+/* Example Usage */
+.submit-btn, 
+.quote-icon, 
+.social-icon {
+  color: var(--primary-color);
+}
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +79,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff014f;
+  color: var(--primary-color);
 }
 
 .btn-buy {
@@ -76,7 +87,7 @@ nav ul li a:hover {
   border-radius: 6px;
   background: #ecf0f3;
   box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff;
-  color: #ff014f;
+  color: var(--primary-color);
   font-weight: 600;
   font-size: 12px;
   text-decoration: none;
@@ -118,17 +129,17 @@ nav ul li a:hover {
 }
 
 .hero-content h1 span.name {
-  color: #ff014f;
+  color: var(--primary-color);
 }
 
 .hero-content h1 span.typed-text {
-  color: #ff014f;
+  color: var(--primary-color);
 }
 
 .cursor {
   display: inline-block;
   width: 3px;
-  background-color: #ff014f;
+  background-color: var(--primary-color);
   animation: blink 1s infinite;
 }
 
@@ -181,7 +192,7 @@ nav ul li a:hover {
 .icon-box:hover {
   transform: translateY(-3px);
   box-shadow: inset 5px 5px 10px #d1d9e6, inset -5px -5px 10px #ffffff;
-  color: #ff014f;
+  color: var(--primary-color);
 }
 
 .hero-image-wrapper {
@@ -220,7 +231,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff014f;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 14px;
 }
@@ -239,7 +250,7 @@ nav ul li a:hover {
 }
 
 .section-title span {
-  color: #ff014f;
+  color: var(--primary-color);
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -283,7 +294,7 @@ nav ul li a:hover {
 }
 
 .about-content .sub-title {
-  color: #ff014f;
+  color: var(--primary-color);
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -340,7 +351,7 @@ nav ul li a:hover {
 }
 
 .info-item a {
-  color: #ff014f; /* Accent link color */
+  color: var(--primary-color); /* Accent link color */
 }
 
 /* Mobile Responsive Fix */
@@ -385,7 +396,7 @@ nav ul li a:hover {
   top: 0;
   width: 30px;
   height: 100%;
-  background-color: #ff014f; /* Aap ki theme ka main accent color */
+  background-color: var(--primary-color); /* Aap ki theme ka main accent color */
   border-radius: 2px;
 }
 
@@ -420,7 +431,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff014f; /* Accent color icon */
+  color: var(--primary-color); /* Accent color icon */
   font-size: 22px;
   box-shadow: 5px 5px 10px #1c1e221a, -5px -5px 10px #ffffff;
 }
@@ -475,7 +486,7 @@ nav ul li a:hover {
   top: 0;
   width: 30px;
   height: 100%;
-  background-color: #ff014f; /* Accent Pink Color */
+  background-color: var(--primary-color); /* Accent Pink Color */
   border-radius: 2px;
 }
 
@@ -526,7 +537,7 @@ nav ul li a:hover {
 .progress-bar {
   height: 100%;
   width: 0%; /* Initial width 0 rakhein taakay animation dikhe */
-  background: #ff014f; /* Accent Pink */
+  background: var(--primary-color); /* Accent Pink */
   border-radius: 8px;
   transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth slide effect */
 }
@@ -626,7 +637,7 @@ nav ul li a:hover {
 }
 
 .page-header .subtitle {
-  color: #ff014f; /* Accent Pink Color */
+  color: var(--primary-color); /* Accent Pink Color */
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -754,7 +765,7 @@ nav ul li a:hover {
   top: 0;
   width: 30px;
   height: 100%;
-  background-color: #ff014f;
+  background-color: var(--primary-color);
   border-radius: 2px;
 }
 
@@ -791,7 +802,7 @@ nav ul li a:hover {
 
 .filter-btn:hover,
 .filter-btn.active {
-  color: #ff014f;
+  color: var(--primary-color);
   box-shadow: inset 3px 3px 6px #1c1e221a, inset -3px -3px 6px #ffffff;
 }
 
@@ -858,7 +869,7 @@ nav ul li a:hover {
   width: 45px;
   height: 45px;
   background: #ecf0f3;
-  color: #ff014f;
+  color: var(--primary-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -925,7 +936,7 @@ nav ul li a:hover {
   top: 0;
   width: 30px;
   height: 100%;
-  background-color: #ff014f;
+  background-color: var(--primary-color);
   border-radius: 2px;
 }
 
@@ -987,7 +998,7 @@ nav ul li a:hover {
 }
 
 .quote-icon {
-  color: #ff014f;
+  color: var(--primary-color);
   margin: 0 8px;
   font-size: 14px;
 }
@@ -1011,7 +1022,7 @@ nav ul li a:hover {
 }
 
 .dot.active {
-  background: #ff014f;
+  background: var(--primary-color);
   box-shadow: 2px 2px 5px #1c1e2230;
 }
 /* ==========================================
@@ -1051,7 +1062,7 @@ nav ul li a:hover {
   top: 0;
   width: 30px;
   height: 100%;
-  background-color: #ff014f;
+  background-color: var(--primary-color);
   border-radius: 2px;
 }
 
@@ -1088,7 +1099,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff014f;
+  color: var(--primary-color);
   font-size: 20px;
   box-shadow: inset 3px 3px 6px #1c1e221a, inset -3px -3px 6px #ffffff;
 }
@@ -1149,7 +1160,7 @@ nav ul li a:hover {
   border: none;
   border-radius: 30px;
   background: #ecf0f3;
-  color: #ff014f;
+  color: var(--primary-color);
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
@@ -1212,7 +1223,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff014f;
+  color: var(--primary-color);
   font-size: 16px;
   text-decoration: none;
   box-shadow: 5px 5px 10px #1c1e221a, -5px -5px 10px #ffffff;
@@ -1242,7 +1253,7 @@ nav ul li a:hover {
 }
 
 .designed-by a {
-  color: #ff014f;
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 600;
 }
@@ -1260,7 +1271,7 @@ nav ul li a:hover {
   height: 45px;
   border-radius: 50%;
   background: #ecf0f3;
-  color: #ff014f;
+  color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
