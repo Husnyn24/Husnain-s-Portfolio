@@ -40,6 +40,8 @@ header {
 }
 
 .logo {
+  position: absolute;
+    left: 40px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -55,13 +57,16 @@ header {
   object-fit: cover;
   box-shadow: 5px 5px 10px #bbe1e8, -5px -5px 10px #ffffff;
 }
-/* Direct Header Tag Par Laga Kar Check Karein */
 header, 
 header nav {
   position: sticky !important;
   top: 0 !important;
   z-index: 1000 !important;
   background-color: #ecf0f3 !important;
+  display: flex;
+    justify-content: center; /* center me karne ke liye */
+    align-items: center;
+    
 }
 nav ul {
   display: flex;
